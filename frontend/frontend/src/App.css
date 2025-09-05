@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* Container for the logo + title */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Logo image */
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+/* Title text */
+.title {
+  margin: 0;
+  font-family: 'Audiowide', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Song item container */
+.song {
+  margin-bottom: 20px;
+}
+
+/* Album artwork */
+.song img {
+  border-radius: 5px;
+}
